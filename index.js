@@ -7,10 +7,10 @@ http.createServer((req, res) => {
 }).listen(process.env.PORT || 3000);
 
 const botOptions = {
-    host: 'ARTIC__MC.aternos.me:23768', 
-    port: 25565,                  
+    host: 'ARTIC__MC.aternos.me', 
+    port: 23768,                  
     username: 'AFK_Spectator',    
-    version: false                
+    version: false                                
 };
 
 let bot;
